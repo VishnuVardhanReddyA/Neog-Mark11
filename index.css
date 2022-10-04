@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    align-items: center;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.heading{
+    text-align: center;
+    padding: 1rem;
+    background-color: darkmagenta;
+    min-height: 5.5rem;
+    font-size: 3rem;
+    font-family: cosmos mono sc;
+    color: azure;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#birthlabel{
+    margin-top: 4rem;
+}
+label{
+    margin: .5rem;
+    font-size: 2rem;
+    font-family:cursive;
+}
+input{
+    padding: 0.5rem;
+    width: 25%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+button{
+    margin: 1rem;
+    padding: .7rem;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:darkgrey;
+    border-color:antiquewhite;
+}
+.output{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
